@@ -23,11 +23,31 @@
   },
   "plugins": [
     "react",
+    "import-helpers",
     "@typescript-eslint",
     "prettier"
   ],
   "rules": {
     "prettier/prettier": "error",
+    "import-helpers/order-imports": [
+      "warn",
+      {
+        "newlinesBetween": "always",
+        "groups": [
+          "/^react/",
+          "module",
+          [
+            "parent",
+            "sibling",
+            "index"
+          ]
+        ],
+        "alphabetize": {
+          "order": "asc",
+          "ignoreCase": true
+        }
+      }
+    ],
     "space-before-function-paren": "off",
     "react/prop-types": "off",
     "no-use-before-define": "off"
