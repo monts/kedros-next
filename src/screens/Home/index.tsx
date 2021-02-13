@@ -1,6 +1,6 @@
 import React from 'react'
 
-import MontsLogo from '../assets/images/logo.svg'
+import MontsLogo from '../../assets/images/logo.svg'
 import { Container } from './styles'
 
 const Home: React.FC = () => {
