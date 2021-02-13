@@ -1,5 +1,5 @@
 # kedros-next
-Frontend setup da monts em Next.js com typescript
+Frontend setup da monts em Next.js com Typescript
 
 ## Development
 ### In VS Code
