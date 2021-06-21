@@ -19,7 +19,7 @@ export const Container = styled.main`
   }
 
   > h1 {
-    color: ${props => props.theme.colors.primary};
+    color: var(--green-500);
     font-size: 40px;
   }
 
@@ -27,7 +27,7 @@ export const Container = styled.main`
     font-size: 16px;
 
     a {
-      color: ${props => props.theme.colors.primary};
+      color: var(--green-500);
       text-decoration: none;
 
       &:hover {
