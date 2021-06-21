@@ -13,7 +13,7 @@ const Home: React.FC = () => {
       <h1>Welcome to Kedros Next</h1>
 
       <p>
-        A ReactJS & Next.js structure made by{' '}
+        A Next.js structure made by{' '}
         <a
           href="https://monts.com.br"
           target="_blank"
