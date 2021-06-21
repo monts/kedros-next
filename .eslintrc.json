@@ -32,6 +32,7 @@
   ],
   "rules": {
     "prettier/prettier": "error",
+    "react/react-in-jsx-scope": "off",
     "import-helpers/order-imports": [
       "warn",
       {
